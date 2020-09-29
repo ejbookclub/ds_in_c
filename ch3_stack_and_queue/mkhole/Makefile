@@ -1,9 +1,9 @@
-
-APPS := stack linear_queue
+APPS := stack linear_queue circular_queue
 OBJDIR := build
 
 stack_SRCS := stack.c
 linear_queue_SRCS := linear_queue.c
+circular_queue_SRCS := circular_queue.c
 
 ifndef OBJDIR
  $(error "OBJDIR is not defined. Aborting")
