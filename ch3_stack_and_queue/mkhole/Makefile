@@ -1,10 +1,11 @@
-APPS := stack linear_queue circular_queue in_to_postfix
+APPS := stack linear_queue circular_queue in_to_postfix cal_postfix
 OBJDIR := build
 
 stack_SRCS := stack.c
 linear_queue_SRCS := linear_queue.c
 circular_queue_SRCS := circular_queue.c
 in_to_postfix_SRCS := in_to_postfix.c
+cal_postfix_SRCS := cal_postfix.c
 
 ifndef OBJDIR
  $(error "OBJDIR is not defined. Aborting")
